@@ -8,7 +8,7 @@
 import UIKit
 
 // MARK: UIStoryboard (Factory)
-extension UIStoryboard {
+public extension UIStoryboard {
     
     public static func initialViewController(with storyboardName: String, bundle: Bundle? = nil) -> UIViewController? {
         let storyboard = UIStoryboard(name: storyboardName, bundle: bundle)
